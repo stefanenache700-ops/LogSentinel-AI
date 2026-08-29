@@ -38,55 +38,55 @@ LogSentinel/
 ```
 ## Getting Started
 
-### 1. Clone the repository
+## 1. Clone the repository
 ```bash
 git clone [https://github.com/stefanenache700-ops/LogSentinel-AI.git](https://github.com/stefanenache700-ops/LogSentinel-AI.git)
 cd LogSentinel-AI
 ```
-### 2. Set up the Python Virtual Environment (.venv)
+## 2. Set up the Python Virtual Environment (.venv)
 
-# Create the virtual environment
+### Create the virtual environment
 ```bash
 python3 -m venv .venv
 ```
 
-# Activate on Linux / macOS:
+### Activate on Linux / macOS:
 ```bash
 source .venv/bin/activate
 ```
 
-# Activate on Windows (PowerShell / Command Prompt):
+### Activate on Windows (PowerShell / Command Prompt):
 ```bash
 .venv\Scripts\activate
 ```
-### 3. Install Google ADK & Dependencies
-# Upgrade pip and install the Google Agent Development Kit (ADK)
+## 3. Install Google ADK & Dependencies
+### Upgrade pip and install the Google Agent Development Kit (ADK)
 ```bash
 pip install --upgrade pip
 pip install google-adk
 ```
 
-# Install locked dependencies if requirements.lock.txt is present
+### Install locked dependencies if requirements.lock.txt is present
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Initialize & Configure Google ADK (.adk)
-# Initialize local ADK workspace configuration (creates local .adk directory)
+## 4. Initialize & Configure Google ADK (.adk)
+### Initialize local ADK workspace configuration (creates local .adk directory)
 ```bash
 adk init
 ```
-# Configure your environment variables
+### Configure your environment variables
 ```bash
 cp .env.example .env
 ```
 
-### 5. Run the Sentinel Agent
-# CLI Execution:
+## 5. Run the Sentinel Agent
+### CLI Execution:
 ```bash
 python agent.py
 ```
-# Web UI Execution:
+### Web UI Execution:
 ```bash
 adk web
 ```
