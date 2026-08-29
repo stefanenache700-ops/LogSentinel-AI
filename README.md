@@ -84,7 +84,7 @@ cp .env.example .env
 ## 5. Run the Sentinel Agent
 ### CLI Execution:
 ```bash
-python agent.py
+python -m log_sentinel.agent
 ```
 ### Web UI Execution:
 ```bash
