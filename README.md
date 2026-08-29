@@ -40,7 +40,7 @@ LogSentinel/
 
 ## 1. Clone the repository
 ```bash
-git clone [https://github.com/stefanenache700-ops/LogSentinel-AI.git](https://github.com/stefanenache700-ops/LogSentinel-AI.git)
+git clone https://github.com/stefanenache700-ops/LogSentinel-AI.git
 cd LogSentinel-AI
 ```
 ## 2. Set up the Python Virtual Environment (.venv)
