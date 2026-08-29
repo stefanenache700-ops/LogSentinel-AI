@@ -76,8 +76,18 @@ pip install -r requirements.txt
 ```bash
 adk init
 ```
-
 # Configure your environment variables
 ```bash
 cp .env.example .env
 ```
+
+### 5. Run the Sentinel Agent
+# CLI Execution:
+```bash
+python agent.py
+```
+# Web UI Execution:
+```bash
+adk web
+```
+
