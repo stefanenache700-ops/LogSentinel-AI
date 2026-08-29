@@ -20,9 +20,11 @@ Autonomous security and log-monitoring platform that detects anomalies and trigg
            │
            ├──► [ Threat Classification & Scoring ]
            └──► [ Automated Remediation Playbooks ]
+```
 
-##Project Structure
+## Project Structure
 
+```text
 LogSentinel/
 ├── .adk/                   # Google Agent Development Kit local configuration
 ├── log_sentinel/           # Core application package
@@ -33,3 +35,4 @@ LogSentinel/
 ├── requirements.lock.txt   # Fully locked, reproducible dependency tree
 ├── requirements.txt        # Primary project dependencies
 └── README.md               # Project documentation
+```
